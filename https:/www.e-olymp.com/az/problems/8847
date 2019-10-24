@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a;
+	cin>>a;
+  int teklik,onluq,yuzluk;
+  teklik=a%10;
+  yuzluk = a/100%10;
+   onluq = a/10%10;
+   // 5487
+   a=a/1000;
+   a=a*1000;
+   a=a+100*teklik+10*onluq+yuzluk;
+   cout<<a;
+ 
+}
