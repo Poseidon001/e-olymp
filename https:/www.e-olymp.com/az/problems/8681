@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main ()
+{ long n,hasil=1;
+cin>>n;
+while(n!=0)
+{ int d = n%10;
+if(d!=0)
+hasil=hasil*d;
+
+n=n/10;
+}
+
+ cout<<hasil;
+ 
+}
